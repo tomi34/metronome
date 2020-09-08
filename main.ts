@@ -18,5 +18,5 @@ tempo = 1
 tempokiirasa()
 basic.forever(function () {
     basic.pause(1000 / tempo)
-    music.playTone(262, music.beat(BeatFraction.Sixteenth))
+    music.playTone(523, music.beat(BeatFraction.Sixteenth))
 })
