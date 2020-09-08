@@ -8,8 +8,10 @@ input.onButtonPressed(Button.A, function () {
     tempokiirasa()
 })
 input.onButtonPressed(Button.B, function () {
-    tempo += -1
-    tempokiirasa()
+    if (tempo > 1) {
+        tempo += -1
+        tempokiirasa()
+    }
 })
 let tempo = 0
 tempo = 1
